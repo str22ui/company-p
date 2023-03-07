@@ -1,3 +1,10 @@
+"use client"; // this is a client component
+import About from './Components/About';
+import Contact from './Components/Contact';
+import Hero from './Components/Hero';
+import Navbar from './Components/Navbar'
+import Services from './Components/Services';
+import Visi from './Components/Visi';
 import './globals.css'
 
 export default function RootLayout({ children }) {
@@ -8,7 +15,9 @@ export default function RootLayout({ children }) {
         head.js. Find out more at https://beta.nextjs.org/docs/api-reference/file-conventions/head
       */}
       <head />
-      <body>{children}</body>
+      <body>
+     
+      {children}</body>
     </html>
   )
 }
